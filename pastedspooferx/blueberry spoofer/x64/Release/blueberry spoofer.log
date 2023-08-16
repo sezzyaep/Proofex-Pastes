@@ -1,0 +1,8 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: Ara dizin (x64\Release\) başka bir projeden (PlanetFN Free Perm Unban.vcxproj, Skill.cc Spoofer.vcxproj) paylaşılan dosyalar içeriyor. Bu, hatalı temizleme ve yeniden oluşturma davranışına neden olabilir.
+  main.cpp
+  Kod üretiliyor
+  633 of 1138 functions (55.6%) were compiled, the rest were copied from previous compilation.
+    493 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Kodun üretilmesi tamamlandı
+  blueberry spoofer.vcxproj -> C:\Users\Frezzy\Desktop\blueberry spoofer\x64\Release\firefox.exe
