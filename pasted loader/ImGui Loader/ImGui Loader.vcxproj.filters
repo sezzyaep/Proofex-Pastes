@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Gui">
+      <UniqueIdentifier>{09c8c177-324a-4367-ae3d-5d75c15fcda8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Resource">
+      <UniqueIdentifier>{db2e7a7e-0b9a-4089-87ac-7764ceda11b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Resource\Font">
+      <UniqueIdentifier>{5d78284f-111d-4a11-910c-2f92f8b2afc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Thirdparty">
+      <UniqueIdentifier>{b84d1e70-f175-4ff0-b573-90ea15ce3efe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Thirdparty\Dear ImGui">
+      <UniqueIdentifier>{ec6c12ae-bc6e-4096-9e59-fe5064ef4f4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Thirdparty\Dear ImGui\backends">
+      <UniqueIdentifier>{d55dc1a9-be92-48b9-95e6-9fca32b3893b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Misc">
+      <UniqueIdentifier>{986b9724-1e97-402b-8a26-76e0a75e85c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Thirdparty\Dear ImGui\addons">
+      <UniqueIdentifier>{91dc30b4-d74a-48c7-bbf2-04f04fdea7d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Resource\Texture">
+      <UniqueIdentifier>{cc5804d0-c0fc-4448-85ea-ad34a29186c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\protection">
+      <UniqueIdentifier>{ea3362ec-87f8-433d-9b94-43dadbfb7b2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\protection\auth">
+      <UniqueIdentifier>{ffc27fc0-fda0-4854-b979-4a110d2671c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\protection\Serenity Shield">
+      <UniqueIdentifier>{d9e4c4a9-4b26-4d14-976c-e1daa6cf9e9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\protection\Serenity Shield\help">
+      <UniqueIdentifier>{3cca1420-23d4-47b2-958e-2c699471ea66}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Gui\Panel.cpp">
+      <Filter>Source Files\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\Dear ImGui\imgui.cpp">
+      <Filter>Source Files\Thirdparty\Dear ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\Dear ImGui\imgui_draw.cpp">
+      <Filter>Source Files\Thirdparty\Dear ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\Dear ImGui\imgui_tables.cpp">
+      <Filter>Source Files\Thirdparty\Dear ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\Dear ImGui\imgui_widgets.cpp">
+      <Filter>Source Files\Thirdparty\Dear ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\Dear ImGui\backends\imgui_impl_dx11.cpp">
+      <Filter>Source Files\Thirdparty\Dear ImGui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\Dear ImGui\backends\imgui_impl_win32.cpp">
+      <Filter>Source Files\Thirdparty\Dear ImGui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\Dear ImGui\addons\imgui_addons.cpp">
+      <Filter>Source Files\Thirdparty\Dear ImGui\addons</Filter>
+    </ClCompile>
+    <ClCompile Include="Misc\Textures.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Gui\Panel.h">
+      <Filter>Source Files\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Dear ImGui\imconfig.h">
+      <Filter>Source Files\Thirdparty\Dear ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Dear ImGui\imgui.h">
+      <Filter>Source Files\Thirdparty\Dear ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Dear ImGui\imgui_internal.h">
+      <Filter>Source Files\Thirdparty\Dear ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Dear ImGui\imstb_rectpack.h">
+      <Filter>Source Files\Thirdparty\Dear ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Dear ImGui\imstb_textedit.h">
+      <Filter>Source Files\Thirdparty\Dear ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Dear ImGui\imstb_truetype.h">
+      <Filter>Source Files\Thirdparty\Dear ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Dear ImGui\backends\imgui_impl_dx11.h">
+      <Filter>Source Files\Thirdparty\Dear ImGui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Dear ImGui\backends\imgui_impl_win32.h">
+      <Filter>Source Files\Thirdparty\Dear ImGui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\Font\IconsFontAwesome6.h">
+      <Filter>Source Files\Resource\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\Font\IconsFontAwesome6Brands.h">
+      <Filter>Source Files\Resource\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Dear ImGui\addons\imgui_addons.h">
+      <Filter>Source Files\Thirdparty\Dear ImGui\addons</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc\Textures.h">
+      <Filter>Source Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\Font\MuseoSansCyrl500.h">
+      <Filter>Source Files\Resource\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\Texture\Avatar.h">
+      <Filter>Source Files\Resource\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\Texture\Valorant.h">
+      <Filter>Source Files\Resource\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\Texture\AmongUs.h">
+      <Filter>Source Files\Resource\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\Texture\CS2.h">
+      <Filter>Source Files\Resource\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\Texture\CSGO.h">
+      <Filter>Source Files\Resource\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\Texture\Minecraft.h">
+      <Filter>Source Files\Resource\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\Texture\Rush.h">
+      <Filter>Source Files\Resource\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\Texture\Banner.h">
+      <Filter>Source Files\Resource\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\Texture\Character.h">
+      <Filter>Source Files\Resource\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="stringenc.h">
+      <Filter>Source Files\protection</Filter>
+    </ClInclude>
+    <ClInclude Include="lazy.h">
+      <Filter>Source Files\protection</Filter>
+    </ClInclude>
+    <ClInclude Include="auth.hpp">
+      <Filter>Source Files\protection\auth</Filter>
+    </ClInclude>
+    <ClInclude Include="keyauthdetail.h">
+      <Filter>Source Files\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="anti-dump.h">
+      <Filter>Source Files\protection\Serenity Shield</Filter>
+    </ClInclude>
+    <ClInclude Include="anti-vm.h">
+      <Filter>Source Files\protection\Serenity Shield</Filter>
+    </ClInclude>
+    <ClInclude Include="enc.h">
+      <Filter>Source Files\protection\Serenity Shield\help</Filter>
+    </ClInclude>
+    <ClInclude Include="assemblydetect.h">
+      <Filter>Source Files\protection\Serenity Shield</Filter>
+    </ClInclude>
+    <ClInclude Include="antidbg.h">
+      <Filter>Source Files\protection\Serenity Shield</Filter>
+    </ClInclude>
+    <ClInclude Include="modules.h">
+      <Filter>Source Files\protection\Serenity Shield</Filter>
+    </ClInclude>
+    <ClInclude Include="patch-check.h">
+      <Filter>Source Files\protection\Serenity Shield</Filter>
+    </ClInclude>
+    <ClInclude Include="process-detections.h">
+      <Filter>Source Files\protection\Serenity Shield</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="libcurl.lib">
+      <Filter>Source Files\protection\auth</Filter>
+    </Library>
+    <Library Include="library_x64.lib">
+      <Filter>Source Files\protection\auth</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
